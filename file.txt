@@ -1,0 +1,71 @@
+file.txt
+1.movies:[{
+			title:'圣骑士',
+			_id: 1,
+			poster:"http://ww1.sinaimg.cn/mw690/c1973c60jw1f18axyyb9cj20b40b4dgz.jpg"
+		},{
+			title:'牧师',
+			_id: 2,
+			poster:"http://ww2.sinaimg.cn/mw690/c1973c60jw1f18axzr931j20b40b4js4.jpg"
+		},{
+			title:'盗贼',
+			_id: 3,
+			poster:"http://ww2.sinaimg.cn/mw690/c1973c60jw1f18ay0akcbj20b40b4ab1.jpg"
+		},{
+			title:'法师',
+			_id: 4,
+			poster:"http://ww1.sinaimg.cn/mw690/c1973c60jw1f18ay1dbvuj20b40b4dgo.jpg"
+		},{
+			title:'术士',
+			_id: 5,
+			poster:"http://ww4.sinaimg.cn/mw690/c1973c60jw1f18ay1wtgpj20b40b4gm8.jpg"
+		},{
+			title:'战士',
+			_id: 6,
+			poster:"http://ww2.sinaimg.cn/mw690/c1973c60jw1f18ay29en0j20b40b4js2.jpg"
+		},{
+			title:'猎人',
+			_id: 7,
+			poster:"http://ww1.sinaimg.cn/mw690/c1973c60jw1f18ay2u8vmj20b40b43z4.jpg"
+		},{
+			title:'德鲁伊',
+			_id: 8,
+			poster:"http://ww4.sinaimg.cn/mw690/c1973c60jw1f18ay3a9szj20b40b4q3w.jpg"
+		},{
+			title:'萨满',
+			_id: 9,
+			poster:"http://ww1.sinaimg.cn/mw690/c1973c60jw1f18ay4l5npj20b40b43z5.jpg"
+		}]
+
+
+2.movies:{
+			doctor:'暴雪',
+			country:"美国",
+			title:'炉石',
+			year:'2016',
+			poster:'http://www.imooc.com/video/1226',
+			language:'英语',
+			summary:'for test'
+		}
+
+3.movie:{
+			title:"",
+			doctor:"",
+			country:"",
+			year:"",
+			poster:"",
+			flash:"",
+			summary:"",
+			language:"",
+
+		}
+4.movies:[{
+			doctor:'暴雪',
+			_id:1,
+			country:"美国",
+			title:'炉石',
+			year:'2016',
+			language:'英语',
+			summary:'for test',
+			flash:'http://ww1.sinaimg.cn/mw690/c1973c60jw1f18ay4l5npj20b40b43z5.jpg'
+		}]

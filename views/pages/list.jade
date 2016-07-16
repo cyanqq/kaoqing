@@ -1,0 +1,22 @@
+extend ../layout
+script(src='/js/admin.js')
+block content
+	.container
+		.row
+			table.tabel.table-hover.table-bordered
+				thead
+					tr
+						th &nbsp&nbsp&nbsp姓名&nbsp&nbsp&nbsp   
+						th &nbsp&nbsp&nbsp学制&nbsp&nbsp&nbsp&nbsp   
+						th &nbsp&nbsp&nbsp学号&nbsp&nbsp&nbsp   
+					tbody
+						each item in mumbers
+							tr(class='item-id-#{item._id}')
+								td #{item.name}
+								td #{item.type}
+								td #{item.studentid}
+								td: a(target='_blank',href='../movie/#{item._id}') 查看
+								td: a(target='_blank',href='../admin/update/#{item._id}') 修改
+								td
+									button.btn.btn-danger.del(type='button',data-id='#{item.id}') 删除
+	script(src='/js/admin.js')

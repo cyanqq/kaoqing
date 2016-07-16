@@ -1,0 +1,35 @@
+extend ../layout
+
+block content
+	.row
+	.container
+			form.form-horizontal(name='member',method='post',action='/admin/member/new')
+				input(type="hidden", name="member[_id]", value="#{member._id}")
+				.form-group
+					label.col-sm-3.control-label(for='inputName') 姓名
+					.col-sm-10
+						input#inputName.form-control(type='text',name='member[name]',value='#{member.name}')
+				.form-group
+					label.col-sm-3.control-label(for='inputType') 学制
+					.col-sm-10
+						input#inputType.form-control(type='text',name='member[type]',value='#{member.type}')
+				.form-group
+					label.col-sm-3.control-label(for='inputStudentid') 学号
+					.col-sm-10
+						input#inputStudentid.form-control(type='text',name='member[studentid]',value='#{member.studentid}')
+				.form-group
+					label.col-sm-3.control-label(for='imageUrl') 照片地址
+					.col-sm-10
+						input#imageUrl.form-control(type='text',name='member[imageUrl]',value='#{member.imageUrl}')
+				.form-group
+					label.col-sm-3.control-label(for='inputSummary') 简介
+					.col-sm-10
+						input#inputSummary.form-control(type='text',name='member[summary]',value='#{member.summary}')
+				.form-group
+					label.col-sm-3.control-label(for='inputSummary') 值日时间
+					.col-sm-10
+						input#inputSummary.form-control(type='text',name='member[duty]',value='#{member.duty}')
+				.form-group
+					.col-sm-offset-2.col-sm-10
+					button.btn.btn-default(type='submit') 录入
+

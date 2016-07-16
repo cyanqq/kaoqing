@@ -1,0 +1,13 @@
+extend ../layout
+
+block content
+	.container
+		.row
+			each item in members
+				.col-md-2
+					.thumbnail
+						a(href='/movie/#{item._id}')
+							img(src='#{item.imageUrl}',alt='#{item.name}')
+							.caption
+								h3 #{item.name}
+								p: a.btn.btn-primary(href='/member/#{item._id}', role ='button') 详细信息

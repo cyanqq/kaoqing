@@ -1,0 +1,19 @@
+extend ../layout
+
+block content
+	.container
+		.row
+			.col-md-7
+				img(src='#{member.imageUrl}')
+			.col-md-5
+				dl.dl-horizontal
+					dt 姓名
+					dd=member.name
+					dt 学号
+					dd=member.studentid
+					dt 学制
+					dd=member.type
+					dt 值日时间
+					dd=member.duty
+					dt 简介
+					dd=member.summary
