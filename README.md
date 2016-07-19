@@ -13,5 +13,7 @@
 ###成员列表页
 管理员可访问，可以对成员信息修改或删除
 
+![](http://ww3.sinaimg.cn/mw690/891a8afbjw1f5z6fz7lusj211y0gmta0.jpg)
+
 ###成员信息录入页
 ![](http://ww2.sinaimg.cn/mw690/891a8afbjw1f5z6fz2ndaj211y0hxab6.jpg)
